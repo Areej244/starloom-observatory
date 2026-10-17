@@ -2,7 +2,9 @@
 
 A fully responsive, multi-page business website for a fictional stargazing and astronomy company, built with HTML5, CSS3 and vanilla JavaScript.
 
-**Live demo:** https://areej244.github.io/starloom-observatory/
+**Live demo (GitHub Pages):** https://areej244.github.io/starloom-observatory/
+
+**Live demo (Vercel):** https://your-vercel-link.vercel.app
 
 ## Pages
 - Home
