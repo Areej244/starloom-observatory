@@ -4,7 +4,7 @@ A fully responsive, multi-page business website for a fictional stargazing and a
 
 **Live demo (GitHub Pages):** https://areej244.github.io/starloom-observatory/
 
-**Live demo (Vercel):** https://your-vercel-link.vercel.app
+**Live demo (Vercel):** https://starloom-observatory.vercel.app/
 
 ## Pages
 - Home
