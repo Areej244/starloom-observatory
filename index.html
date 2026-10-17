@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StarLoom Observatory | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="index.html" class="logo">✦ StarLoom</a>
+
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <button id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+  <section class="hero">
+    <p class="hero-small">Welcome to StarLoom Observatory</p>
+    <h1>
+      <span id="typing"></span><span class="cursor">|</span>
+    </h1>
+    <p class="hero-text">
+      Join our guided night-sky tours, rent professional telescopes, and learn astrophotography under the darkest skies.
+    </p>
+    <div class="hero-buttons">
+      <a href="services.html" class="btn">Our Services</a>
+      <a href="contact.html" class="btn btn-outline">Book a Tour</a>
+    </div>
+  </section>
+  <section class="counters">
+  <div class="counter-box">
+    <h2 class="counter" data-target="12500">0</h2>
+    <p>Stars Catalogued</p>
+  </div>
+  <div class="counter-box">
+    <h2 class="counter" data-target="350">0</h2>
+    <p>Tours Hosted</p>
+  </div>
+  <div class="counter-box">
+    <h2 class="counter" data-target="4800">0</h2>
+    <p>Happy Stargazers</p>
+  </div>
+  <div class="counter-box">
+    <h2 class="counter" data-target="15">0</h2>
+    <p>Telescopes Available</p>
+  </div>
+</section>
+<section class="slider-section">
+  <h2 class="section-title">Featured Experiences</h2>
+
+  <div class="slider">
+    <div class="slides" id="slides">
+      <div class="slide slide-1">
+        <div class="slide-caption">
+          <h3>Night-Sky Tours</h3>
+          <p>Guided evenings under the darkest skies, with an expert at your side.</p>
+        </div>
+      </div>
+      <div class="slide slide-2">
+        <div class="slide-caption">
+          <h3>Telescope Rentals</h3>
+          <p>Professional telescopes for your own backyard stargazing.</p>
+        </div>
+      </div>
+      <div class="slide slide-3">
+        <div class="slide-caption">
+          <h3>Astrophotography Workshops</h3>
+          <p>Learn to capture the Milky Way, planets and star trails.</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="slider-btn prev" id="prevBtn" aria-label="Previous slide">❮</button>
+    <button class="slider-btn next" id="nextBtn" aria-label="Next slide">❯</button>
+
+    <div class="dots" id="dots"></div>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="footer-content">
+    <div>
+      <h3>✦ StarLoom</h3>
+      <p>Guided stargazing, telescope rentals and astrophotography workshops.</p>
+    </div>
+    <div>
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>info@starloom.example</p>
+      <p>+92 300 0000000</p>
+    </div>
+  </div>
+  <p class="copyright">© 2026 StarLoom Observatory. All rights reserved.</p>
+</footer>
+
+<button id="scrollTopBtn" aria-label="Scroll to top">↑</button>
+  <script src="js/script.js"></script>
+</body>
+</html>
